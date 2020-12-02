@@ -1,0 +1,11 @@
+Code-Review+1: Zahrul Septian <zahrulseptian295@gmail.com>
+Code-Review+2: Jiyong Park <jiyong@google.com>
+Open-Source-Licensing+1: Zahrul Septian <zahrulseptian295@gmail.com>
+Lint+2: Zahrul Septian <zahrulseptian295@gmail.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Justin Yun <justinyun@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 02 Dec 2020 02:43:57 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/prebuilts/vndk/v30/+/1512816
+Project: platform/prebuilts/vndk/v30
+Branch: refs/heads/master
