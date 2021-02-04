@@ -50,6 +50,24 @@
       "message": "this is definitely an \"OR\"... is there some way to rewrite this header that your tool won\u0027t be confused?\n\n(does it understand the `SPDX-License-Identifier:` syntax?)",
       "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6334aa19_8c9f8aa8",
+        "filename": "METADATA",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-04T20:04:30Z",
+      "side": 1,
+      "message": "The scanner does not understand full SPDX-License-Identifier syntax; although, it does highlight instances of them.\n\nThe METADATA changes are all done manually. Seeing a bunch of legit GPL I didn\u0027t take the time to open every file. ::shrug::",
+      "parentUuid": "b7c9d4ad_7f0046e2",
+      "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
