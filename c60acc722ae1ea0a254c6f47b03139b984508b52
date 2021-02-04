@@ -16,6 +16,40 @@
       "message": "Dash blanket approved all GPL -\u003e RESTRICTED and all LGPL -\u003e RESTRICTED",
       "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62c1dc38_ed156a64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-02-04T18:40:03Z",
+      "side": 1,
+      "message": "(i think this is legit anyway, if only because of libnl or whatever, but i would like to fix cutils so i\u0027ll not +2 until you\u0027ve noticed i\u0027m asking a question :-) )",
+      "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7c9d4ad_7f0046e2",
+        "filename": "METADATA",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-02-04T18:40:03Z",
+      "side": 1,
+      "message": "this is definitely an \"OR\"... is there some way to rewrite this header that your tool won\u0027t be confused?\n\n(does it understand the `SPDX-License-Identifier:` syntax?)",
+      "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
