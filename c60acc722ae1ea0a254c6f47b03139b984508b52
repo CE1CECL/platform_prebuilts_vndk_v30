@@ -68,6 +68,24 @@
       "parentUuid": "b7c9d4ad_7f0046e2",
       "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b293e5a_396bdd82",
+        "filename": "METADATA",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-02-04T20:38:21Z",
+      "side": 1,
+      "message": "that\u0027s true _here_ but if there was a way for me to fix cutils/ashmem.h we could save time down the line...\n\naren\u0027t you going to need SPDX-License-Identifier eventually anyway? isn\u0027t that the way the world is going?",
+      "parentUuid": "6334aa19_8c9f8aa8",
+      "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
