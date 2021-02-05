@@ -86,6 +86,24 @@
       "parentUuid": "6334aa19_8c9f8aa8",
       "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27472cf3_4001b5af",
+        "filename": "METADATA",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2021-02-05T02:26:46Z",
+      "side": 1,
+      "message": "I don\u0027t really need it because I have to deal with all the legacy projects that don\u0027t use it in any case.",
+      "parentUuid": "7b293e5a_396bdd82",
+      "revId": "c60acc722ae1ea0a254c6f47b03139b984508b52",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
