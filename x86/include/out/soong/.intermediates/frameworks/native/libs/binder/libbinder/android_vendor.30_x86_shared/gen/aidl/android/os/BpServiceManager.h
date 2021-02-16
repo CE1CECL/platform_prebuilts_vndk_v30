@@ -23,7 +23,7 @@ public:
   ::android::binder::Status isDeclared(const ::std::string& name, bool* _aidl_return) override;
   ::android::binder::Status registerClientCallback(const ::std::string& name, const ::android::sp<::android::IBinder>& service, const ::android::sp<::android::os::IClientCallback>& callback) override;
   ::android::binder::Status tryUnregisterService(const ::std::string& name, const ::android::sp<::android::IBinder>& service) override;
-};  // class BpServiceManager
+};  // class BpServiceManager AIDL生成的BpServiceManager
 
 }  // namespace os
 
