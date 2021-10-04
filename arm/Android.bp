@@ -7018,38 +7018,6 @@ vndk_prebuilt_shared {
 }
 
 vndk_prebuilt_shared {
-    name: "libclang_rt.scudo-arm-android",
-    version: "30",
-    target_arch: "arm",
-    vendor_available: true,
-    product_available: true,
-    vndk: {
-        enabled: true,
-    },
-    arch: {
-        arm: {
-            srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libclang_rt.scudo-arm-android.so"],
-        },
-    },
-}
-
-vndk_prebuilt_shared {
-    name: "libclang_rt.scudo_minimal-arm-android",
-    version: "30",
-    target_arch: "arm",
-    vendor_available: true,
-    product_available: true,
-    vndk: {
-        enabled: true,
-    },
-    arch: {
-        arm: {
-            srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libclang_rt.scudo_minimal-arm-android.so"],
-        },
-    },
-}
-
-vndk_prebuilt_shared {
     name: "libclang_rt.ubsan_standalone-arm-android",
     version: "30",
     target_arch: "arm",
