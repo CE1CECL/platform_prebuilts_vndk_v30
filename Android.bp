@@ -11,7 +11,6 @@ license {
     license_kinds: [
         "SPDX-license-identifier-Apache-2.0",
         "SPDX-license-identifier-BSD",
-        "SPDX-license-identifier-CC0-1.0",
         "SPDX-license-identifier-GPL",
         "SPDX-license-identifier-GPL-2.0",
         "SPDX-license-identifier-ISC",
@@ -31,16 +30,16 @@ prebuilt_etc {
     name: "llndk.libraries.30.txt",
     target: {
         android_arm: {
-            src: "arm/configs/llndk.libraries.txt",
+            src: "arm/configs/llndk.libraries.29.txt",
         },
         android_arm64: {
-            src: "arm64/configs/llndk.libraries.txt",
+            src: "arm64/configs/llndk.libraries.29.txt",
         },
         android_x86: {
-            src: "x86/configs/llndk.libraries.txt",
+            src: "x86/configs/llndk.libraries.29.txt",
         },
         android_x86_64: {
-            src: "x86_64/configs/llndk.libraries.txt",
+            src: "x86_64/configs/llndk.libraries.29.txt",
         },
     },
 }
@@ -49,16 +48,16 @@ prebuilt_etc {
     name: "vndksp.libraries.30.txt",
     target: {
         android_arm: {
-            src: "arm/configs/vndksp.libraries.txt",
+            src: "arm/configs/vndksp.libraries.29.txt",
         },
         android_arm64: {
-            src: "arm64/configs/vndksp.libraries.txt",
+            src: "arm64/configs/vndksp.libraries.29.txt",
         },
         android_x86: {
-            src: "x86/configs/vndksp.libraries.txt",
+            src: "x86/configs/vndksp.libraries.29.txt",
         },
         android_x86_64: {
-            src: "x86_64/configs/vndksp.libraries.txt",
+            src: "x86_64/configs/vndksp.libraries.29.txt",
         },
     },
 }

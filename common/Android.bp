@@ -76,8 +76,33 @@ filegroup {
 }
 
 filegroup {
+    name: "vndk-v30-libhidltransport.so-notice",
+    srcs: ["NOTICE_FILES/libhidltransport.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libhwbinder.so-notice",
+    srcs: ["NOTICE_FILES/libhwbinder.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libhwbinder_noltopgo.so-notice",
+    srcs: ["NOTICE_FILES/libhwbinder_noltopgo.so.txt"],
+}
+
+filegroup {
     name: "vndk-v30-libjpeg.so-notice",
     srcs: ["NOTICE_FILES/libjpeg.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libkeymaster_messages.so-notice",
+    srcs: ["NOTICE_FILES/libkeymaster_messages.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libkeymaster_portable.so-notice",
+    srcs: ["NOTICE_FILES/libkeymaster_portable.so.txt"],
 }
 
 filegroup {
@@ -93,6 +118,11 @@ filegroup {
 filegroup {
     name: "vndk-v30-liblz4.so-notice",
     srcs: ["NOTICE_FILES/liblz4.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libmedia_helper.so-notice",
+    srcs: ["NOTICE_FILES/libmedia_helper.so.txt"],
 }
 
 filegroup {
@@ -126,13 +156,28 @@ filegroup {
 }
 
 filegroup {
-    name: "vndk-v30-libpng.so-notice",
-    srcs: ["NOTICE_FILES/libpng.so.txt"],
+    name: "vndk-v30-libpower.so-notice",
+    srcs: ["NOTICE_FILES/libpower.so.txt"],
 }
 
 filegroup {
-    name: "vndk-v30-libpower.so-notice",
-    srcs: ["NOTICE_FILES/libpower.so.txt"],
+    name: "vndk-v30-libprotobuf-cpp-full.so-notice",
+    srcs: ["NOTICE_FILES/libprotobuf-cpp-full.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libprotobuf-cpp-lite.so-notice",
+    srcs: ["NOTICE_FILES/libprotobuf-cpp-lite.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libpuresoftkeymasterdevice.so-notice",
+    srcs: ["NOTICE_FILES/libpuresoftkeymasterdevice.so.txt"],
+}
+
+filegroup {
+    name: "vndk-v30-libsoftkeymasterdevice.so-notice",
+    srcs: ["NOTICE_FILES/libsoftkeymasterdevice.so.txt"],
 }
 
 filegroup {
